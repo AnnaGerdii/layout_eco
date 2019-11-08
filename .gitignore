@@ -1,1 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
+.idea
+node_modules
+.DS_Store
+yarn.lock
+package-lock.json
+dist

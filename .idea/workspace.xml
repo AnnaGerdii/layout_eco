@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d25c578-6f7c-423d-868d-0a8912de0b43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/features/features-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/features/features-item-icon-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/features/features-item-icon-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/features/features-item-icon-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo/dia-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/slider/arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/slider/arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/slider/slide-img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/sub-title/sub-title-icon-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/sub-title/sub-title-icon-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/testimonials/testimonial-ava-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/testimonials/testimonial-ava-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/testimonials/testimonial-ava-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/what-we-do/what-we-do-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/what-we-do/what-we-do-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/what-we-do/what-we-do-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_utils.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/utils/_extends.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/utils/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/utils/_vars.scss" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1TKYkihOx5kRaPvRotcrbFTB6qG" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RunDashboard">
@@ -13,6 +70,37 @@
           <option name="name" value="StatusDashboardGroupingRule" />
         </RuleState>
       </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d25c578-6f7c-423d-868d-0a8912de0b43" name="Default Changelist" comment="" />
+      <created>1573210398969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573210398969</updated>
+      <workItem from="1573210400102" duration="340000" />
+      <workItem from="1573210806897" duration="1294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
 </project>

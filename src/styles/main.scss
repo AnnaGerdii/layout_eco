@@ -1,3 +1,19 @@
-body {
-  margin: 0;
+/* stylelint-disable */
+@import "vars";
+@import "text";
+@import "reset";
+@import "header";
+@import "logo";
+@import "nav";
+@import "home";
+@import "button";
+@import "intro";
+
+html {
+  background-color: $background;
+  color: $dark;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
 }
+/* stylelint-enable */

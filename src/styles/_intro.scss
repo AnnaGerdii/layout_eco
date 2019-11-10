@@ -1,0 +1,72 @@
+@import "vars";
+
+.intro {
+  display: flex;
+  max-width: 1280px;
+  box-sizing: border-box;
+  padding: 100px 250px 100px 150px;
+  position: relative;
+
+  margin: auto;
+
+  &::after {
+    content: "";
+    height: 1px;
+    background-color: green;
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__text {
+    line-height: 150%;
+    width: 380px;
+
+    margin-right: 120px;
+  }
+
+  &__heading {
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #344f10;
+    width: 380px;
+  }
+}
+
+@media (max-width: $smallLaptop) {
+  .intro {
+    padding: 100px 50px 150px;
+    transition: padding-left $hoverDuration;
+  }
+}
+
+@media (max-width: $tablet) {
+  .intro {
+    padding: 70px 50px 100px;
+    text-align: center;
+    justify-content: center;
+
+    &__text {
+      display: none;
+    }
+
+    &__heading {
+      font-size: 18px;
+      width: 280px;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: $phone) {
+  .intro {
+    padding: 30px 20px;
+    text-align: start;
+  }
+}

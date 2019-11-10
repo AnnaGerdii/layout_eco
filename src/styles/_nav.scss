@@ -1,0 +1,28 @@
+/* stylelint-disable */
+@import "vars";
+
+.nav {
+
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+
+  &__item {
+    margin-left: 40px;
+  }
+
+  &__link {
+    color: $green;
+
+    &:hover {
+      color: $swamp;
+    }
+
+    &:focus {
+      outline: none;
+      color: $swamp;
+    }
+  }
+}
+/* stylelint-enable */

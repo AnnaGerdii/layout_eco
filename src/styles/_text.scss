@@ -1,0 +1,54 @@
+@import "vars";
+
+.decor-text {
+  font-size: 14px;
+  line-height: 130%;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.menu-text {
+  font-size: 18px;
+  line-height: 130%;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+  //line-height: 72px;
+  line-height: 130%;
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 48px;
+    transition: font-size $hoverDuration;
+  }
+}
+
+@media (max-width: $smallLaptop) {
+  h1 {
+    font-size: 42px;
+    line-height: 130%;
+    transition: font-size $hoverDuration;
+  }
+}
+
+@media (max-width: $tablet) {
+  h1 {
+    font-size: 36px;
+    transition: font-size $hoverDuration;
+  }
+}
+
+@media (max-width: $phone) {
+  h1 {
+    font-size: 24px;
+    transition: font-size $hoverDuration;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}

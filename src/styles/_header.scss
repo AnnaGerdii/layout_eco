@@ -1,0 +1,217 @@
+/* stylelint-disable */
+@import "vars";
+
+.header {
+  display: flex;
+  padding: 50px 40px;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1280px;
+  box-sizing: border-box;
+
+  margin: auto;
+  position: relative;
+
+  &__input {
+    display: none;
+    position: absolute;
+  }
+
+  &__button {
+    background-image: url("../images/nav-button.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 13px;
+    display: none;
+    transition: background-image $hoverDuration;
+
+    &:hover {
+      cursor: pointer;
+      background-image: url("../images/nav-button_hover.svg");
+    }
+
+    &:focus {
+      outline: none;
+      background-image: url("../images/nav-button_hover.svg");
+    }
+
+    &_close {
+      background-image: url("../images/nav-button_close.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+      opacity: 0;
+      margin: 28px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  &__nav {
+    position: absolute;
+    left: calc(50% - 135px);
+    top: calc(50% - 15px);
+  }
+
+  &__bag-icon {
+    background-image: url("../images/bag.svg");
+    width: 20px;
+    height: 24px;
+    transform: translateY(-5px);
+    transition: background-image $hoverDuration;
+
+    &:hover {
+      background-image: url("../images/bag_hover.svg");
+    }
+
+    &:focus {
+      outline: none;
+      background-image: url("../images/bag_hover.svg");
+    }
+  }
+}
+
+@media (max-width: $smallLaptop) {
+  .header {
+
+    &__logo {
+      .logo__text {
+        font-size: 0;
+        transition: font-size 0.5s;
+      }
+    }
+  }
+}
+
+@media (min-width: $smallLaptop) {
+  .header {
+
+    &__logo {
+      .logo__text {
+        font-size: 14px;
+        transition: font-size 0.5s;
+      }
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .header {
+    padding: 28px;
+    transition: padding $hoverDuration;
+
+    &__bag-icon {
+      transform: translateY(-1px);
+    }
+
+    &__logo {
+
+      .logo__img {
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+      }
+    }
+
+    &__nav {
+      opacity: 0;
+      transform: translate(0, -100%);
+      transition: transform 0.2s, opacity 0.2s;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: $dark;
+      z-index: 1;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    &__button {
+      display: block;
+      order: -1;
+
+      &_close {
+       opacity: 1;
+        position: absolute;
+      }
+    }
+
+    &__input:checked ~ .header__button {
+      display: none;
+    }
+
+    &__input:checked {
+
+      ~ .header__nav {
+
+        opacity: 1;
+        transform: translate(0, 0);
+        transition: transform 0.4s, opacity 0.4s;
+
+        height: 100vh;
+        width: 100vw;
+
+
+        .nav__list {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .nav__link {
+          color: $beige;
+          padding: 20px 100px 10px;
+          transition: color $hoverDuration;
+
+          &:focus {
+            color: $swamp;
+          }
+        }
+
+        .nav__item {
+          margin: 60px 28px 0;
+          padding: 20px 0 10px;
+          border-bottom: 1px solid #828282;
+          transition: border-bottom-color $hoverDuration;
+
+          &:first-child {
+            margin-top: 150px;
+          }
+
+          &:hover {
+            border-bottom-color: $swamp;
+
+            .nav__link {
+              color: $swamp;
+            }
+          }
+        }
+
+        .header__button_close {
+          order: -1;
+          transition: background-image $hoverDuration;
+
+          &:hover {
+            background-image: url("../images/nav-button_close_hover.svg");
+          }
+
+          &:focus {
+            outline: none;
+            background-image: url("../images/nav-button_close_hover.svg");
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $phone) {
+  .header {
+    padding: 15px 20px 12px;
+    transition: padding $hoverDuration;
+  }
+}
+/* stylelint-enable */

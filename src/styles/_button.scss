@@ -1,0 +1,33 @@
+@import "vars";
+
+.button {
+  width: 280px;
+  height: 60px;
+  background-color: $dark;
+  box-sizing: border-box;
+
+  color: $whitish;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 130%;
+  transition: background-color $hoverDuration;
+
+  &:hover {
+    background-color: $beige;
+    color: $dark;
+    border: 1px solid $dark;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: #8c9772;
+    border: none;
+  }
+
+  &:focus {
+    outline: 1px solid $swamp;
+    border: none;
+  }
+}
